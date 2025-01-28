@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.silver{
+    background: #d3f5ff;
+}
+
+.gold{
+    background: #e3f7b2;
+}
+
+.platinum{
+   background: #ffc7a7;
+}

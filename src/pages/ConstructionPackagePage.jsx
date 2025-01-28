@@ -7,6 +7,8 @@ import designbg from '../assets/bg/design.jpg'
 import CostOfConstruction from '../components/common/CostOfConstruction'
 import BreadCrumb from '../components/common/BreadCrumb'
 import Form from '../components/common/Form'
+import HappyHomesPackages from '../components/common/HappyHomesPackages'
+import FAQAccordion from '../components/common/FAQAccordion'
 
 function ConstructionPackagePage() {
     
@@ -18,6 +20,8 @@ function ConstructionPackagePage() {
       <BreadCrumb currentPage={'House and bungalow construction cost packages'}/>
       <CostOfConstruction city="Pune" price="1599" />
       <Form/>
+      <HappyHomesPackages/>
+      <FAQAccordion/>
       <Footer/>
     </>
   )

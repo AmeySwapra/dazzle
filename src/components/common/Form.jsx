@@ -56,7 +56,7 @@ const Form = () => {
           </option>
           <option value="mumbai">Mumbai</option>
           <option value="pune">Pune</option>
-          <option value="aurangabad">Aurangabad</option>
+          <option value="alibaug">Alibaug</option>
           <option value="solapur">Solapur</option>
         </Select>
       </Box>

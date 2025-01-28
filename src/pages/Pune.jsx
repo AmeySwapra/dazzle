@@ -8,6 +8,7 @@ import CostOfConstruction from '../components/common/CostOfConstruction'
 import BreadCrumb from '../components/common/BreadCrumb'
 import Form from '../components/common/Form'
 import HappyHomesPackages from '../components/common/HappyHomesPackages'
+import FAQAccordion from '../components/common/FAQAccordion'
 
 function Pune() {
     
@@ -20,6 +21,7 @@ function Pune() {
       <CostOfConstruction city="Pune" price="1549" />
       <Form/>
       <HappyHomesPackages/>
+      <FAQAccordion/>
       <Footer/>
     </>
   )

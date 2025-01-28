@@ -9,7 +9,9 @@ import CostCalculatorPage from './pages/CostCalculatorPage'
 import ConstructionPackagePage from './pages/ConstructionPackagePage'
 import Pune from './pages/Pune'
 import ChhatrapatiSambhajinagar from './pages/ChhatrapatiSambhajinagar'
-
+import Mumbai from './pages/Mumbai'
+import Solapur from './pages/Solapur'
+import Alibaug from './pages/Alibaug'
 function App() {
   return (
     <>
@@ -24,6 +26,9 @@ function App() {
           <Route path='/packages' element={<ConstructionPackagePage/>}/>
           <Route path='/pune' element={<Pune/>}/>
           <Route path='/chhatrapati-sambhajinagar' element={<ChhatrapatiSambhajinagar/>}/>
+          <Route path='/mumbai' element={<Mumbai/>}/>
+          <Route path='/solapur' element={<Solapur/>}/>
+          <Route path='/alibaug' element={<Alibaug/>}/>
          </Routes>
       </BrowserRouter>
     </>
