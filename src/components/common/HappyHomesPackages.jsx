@@ -10,9 +10,23 @@ import {
   Image,
   Heading,
   Box,
+  useMediaQuery,
+  Button,
 } from "@chakra-ui/react";
+import pdfFile from "../../../public/files/HappyHomesPackages.pdf";
+import { useRef } from "react";
 
 const HappyHomesPackages = () => {
+  const tableRef = useRef(null);
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
+  const downloadPDF = () => {
+    const link = document.createElement("a");
+    link.href = pdfFile;
+    link.download = "HappyHomesPackages.pdf";
+    link.click();
+  };
+
   return (
     <>
       <Box px={{ base: 4, md: 8, lg: 20 }} py="10">
@@ -27,7 +41,12 @@ const HappyHomesPackages = () => {
             “HAPPY HOMES PACKAGES”
           </Box>
         </Heading>
-        <Table variant="simple" border={"1px solid gray"}>
+        <Table
+          ref={tableRef}
+          variant="simple"
+          border={"1px solid gray"}
+          display={isMobile ? "none" : "block"}
+        >
           <TableCaption>HAPPHO “HAPPY HOMES PACKAGES”</TableCaption>
           <Thead>
             <Tr>
@@ -1012,6 +1031,13 @@ const HappyHomesPackages = () => {
             </Tr>
           </Tbody>
         </Table>
+        {isMobile && (
+          <Box display="flex" justifyContent="center" mt={4}>
+            <Button colorScheme="blue" onClick={downloadPDF}>
+              Download Table PDF
+            </Button>
+          </Box>
+        )}
       </Box>
     </>
   );
