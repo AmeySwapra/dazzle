@@ -19,7 +19,9 @@
     "axios": "^1.7.7",
     "daisyui": "^4.12.23",
     "framer-motion": "^11.11.4",
+    "html2canvas": "^1.4.1",
     "json-server": "^1.0.0-beta.3",
+    "jspdf": "^2.5.2",
     "keen-slider": "^6.8.6",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
@@ -32,6 +34,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.26.2",
     "react-slick": "^0.30.2",
+    "react-to-print": "^3.0.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.15"
   },

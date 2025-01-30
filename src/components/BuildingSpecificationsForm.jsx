@@ -2,7 +2,7 @@ import { Box, Button, FormControl, FormLabel, Heading, Input, Select, Stack, use
 
 const BuildingSpecificationsForm = () => {
   return (
-    <Box py={5} bg="#f8f9fa">
+    <Box py={5} bg="#f8f9fa"  px={{ base: 4, md: 6 ,lg : 24}}>
       <Box
         maxW="5xl"
         mx="auto"

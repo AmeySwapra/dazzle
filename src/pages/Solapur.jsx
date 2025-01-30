@@ -9,6 +9,7 @@ import BreadCrumb from '../components/common/BreadCrumb'
 import Form from '../components/common/Form'
 import HappyHomesPackages from '../components/common/HappyHomesPackages'
 import FAQAccordion from '../components/common/FAQAccordion'
+import Testimonial from '../components/common/Testimonial'
 
 function Solapur() {
     
@@ -22,6 +23,7 @@ function Solapur() {
       <Form/>
       <HappyHomesPackages/>
       <FAQAccordion/>
+      <Testimonial/>
       <Footer/>
     </>
   )

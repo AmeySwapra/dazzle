@@ -12,6 +12,7 @@ import ChhatrapatiSambhajinagar from './pages/ChhatrapatiSambhajinagar'
 import Mumbai from './pages/Mumbai'
 import Solapur from './pages/Solapur'
 import Alibaug from './pages/Alibaug'
+import GalleryPage from './pages/GalleryPage'
 function App() {
   return (
     <>
@@ -29,6 +30,7 @@ function App() {
           <Route path='/mumbai' element={<Mumbai/>}/>
           <Route path='/solapur' element={<Solapur/>}/>
           <Route path='/alibaug' element={<Alibaug/>}/>
+          <Route path='/gallery' element={<GalleryPage/>}/>
          </Routes>
       </BrowserRouter>
     </>

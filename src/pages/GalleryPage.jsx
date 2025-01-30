@@ -5,20 +5,19 @@ import Banner from '../components/common/Banner'
 import BreadCrumb from '../components/common/BreadCrumb'
 import Footer from '../components/common/Footer'
 import designbg from '../assets/bg/design.jpg'
-import Design from '../components/Design'
-import Testimonial from '../components/common/Testimonial'
-function DesignPage() {
+import Gallery from '../components/Gallery'
+
+function GalleryPage() {
   return (
     <>
       <TopBar/>
       <Header/>
-      <Banner imageUrl={designbg} title={'DESIGN COST'}/>
-      <BreadCrumb currentPage={'Design Cost'}/>
-      <Design/>
-      <Testimonial/>
+      <Banner imageUrl={designbg} title={' OUR GALLERY'}/>
+      <BreadCrumb currentPage={'Gallery'}/>
+      <Gallery/>
       <Footer/>
     </>
   )
 }
 
-export default DesignPage
+export default GalleryPage

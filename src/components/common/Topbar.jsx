@@ -36,7 +36,7 @@ const TopBar = () => {
                 +91 97655 19333
               </Link>
             </Flex>
-            <Link href="floor_plans.php" color="white">
+            <Link href="https://dazzelinfo.com/clients99/Arcitecture/13/images/des.pdf" color="white">
               Sample Floor Plans
             </Link>
           </Flex>

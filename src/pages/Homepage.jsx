@@ -7,14 +7,16 @@ import VisionMissionSection from '../components/VisionMissionSection'
 import Services from '../components/common/Services'
 import LatestProjects from '../components/LatestProjects'
 import SloganSection from '../components/common/SloganSection'
-import Testimonial from '../components/Testimonial'
+import Testimonial from '../components/common/Testimonial'
 import BrandCarousel from '../components/common/BrandCarousel'
+import Carousel from '../components/Carousel'
 
 function Homepage() {
   return (
     <>
       <TopBar/>
       <Header/>
+      <Carousel/>
       <WelcomeSection/>
       <VisionMissionSection/>
       <Services/>

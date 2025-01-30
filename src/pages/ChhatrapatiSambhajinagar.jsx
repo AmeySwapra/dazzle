@@ -9,6 +9,7 @@ import BreadCrumb from '../components/common/BreadCrumb'
 import Form from '../components/common/Form'
 import FAQAccordion from '../components/common/FAQAccordion'
 import HappyHomesPackages from '../components/common/HappyHomesPackages'
+import Testimonial from '../components/common/Testimonial'
 
 function ChhatrapatiSambhajinagar() {
     
@@ -22,6 +23,7 @@ function ChhatrapatiSambhajinagar() {
       <Form/>
       <HappyHomesPackages/>
       <FAQAccordion/>
+      <Testimonial/>
       <Footer/>
     </>
   )

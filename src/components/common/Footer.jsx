@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { FaWhatsapp, FaPhone } from "react-icons/fa";
 import footerbg from "../../assets/bg/footer.jpg";
-import logo from '../../assets/logo/logo.png';
+import logo from '../../assets/logo/footer-logo.png';
 const Footer = () => {
   return (
     <Box
