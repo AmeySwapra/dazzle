@@ -136,8 +136,8 @@ const Footer = () => {
         borderRadius="50%"
         boxShadow="0 0 5px #232323"
         as="a"
-        href="https://wa.me/+917757844398?text=Hello,%20I%20am%20interested%20in%20your%20services.%20Share%20with%20me%20more%20details%20and%20call%20me."
-        target="_blank"
+        href="#"
+        
       />
 
       {/* Phone Call Button */}
@@ -154,8 +154,8 @@ const Footer = () => {
         borderRadius="50%"
         boxShadow="0 0 5px #232323"
         as="a"
-        href="tel:+917757844398"
-        target="_blank"
+        href="#"
+        
       />
     </Box>
   );
